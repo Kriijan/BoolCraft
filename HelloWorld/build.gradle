@@ -17,8 +17,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.15.2-0.1.0'
-group = 'com.github.kriijan.helloworld' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'helloworld'
+group = 'com.github.kriijan.boolcraft' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'boolcraft'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -77,7 +77,7 @@ minecraft {
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'boolcraft', '--all', '--output', file('src/generated/resources/')
 
             mods {
                 examplemod {
