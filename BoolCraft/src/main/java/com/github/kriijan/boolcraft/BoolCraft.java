@@ -6,6 +6,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.github.kriijan.boolcraft.init.ModBlocks;
 import com.github.kriijan.boolcraft.init.ModItems;
 
 @Mod("boolcraft")
@@ -16,5 +17,6 @@ public final class BoolCraft {
 	public BoolCraft() {
 		LOGGER.debug("Hello from BoolCraft !");
 		ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+		ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
 	}
 }

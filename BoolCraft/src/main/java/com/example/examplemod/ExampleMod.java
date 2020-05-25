@@ -1,4 +1,4 @@
-package com.example.examplemod;
+/*package com.example.examplemod;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -81,4 +81,4 @@ public class ExampleMod
             LOGGER.info("HELLO from Register Block");
         }
     }
-}
+}*/

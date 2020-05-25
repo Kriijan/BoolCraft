@@ -1,4 +1,5 @@
 {
 	"itemGroup.boolcraft": "BoolCraft",
-	"item.boolcraft.an_item": "An item"
+	"item.boolcraft.an_item": "An item",
+	"block.boolcraft.a_block": "A block"
 }

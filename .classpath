@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="BoolCraft/src/main/java"/>
+	<classpathentry kind="lib" path="BoolCraft/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Berla/Desktop/forge-1.15.2-31.1.0-universal.jar"/>
+	<classpathentry kind="lib" path="BoolCraft/build/classes"/>
+	<classpathentry kind="lib" path="BoolCraft/build/libs"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
