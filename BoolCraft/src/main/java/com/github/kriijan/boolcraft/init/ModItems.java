@@ -17,6 +17,6 @@ public class ModItems {
 	public static final RegistryObject<Item> AN_ITEM = ITEMS.register("an_item", () -> new Item(new Item.Properties().maxStackSize(64).group(ModItemGroups.MOD_ITEM_GROUP)));
 	
 	//Enregistrement et création de l'ItemBlock
-	public static final RegistryObject<Item> A_BLOCK = ITEMS.register("a_block", () -> new BlockItem(ModBlocks.A_BLOCK.get(), new Item.Properties().maxStackSize(64).group(ModItemGroups.MOD_ITEM_GROUP)));
+	//public static final RegistryObject<Item> A_BLOCK = ITEMS.register("a_block", () -> new BlockItem(ModBlocks.A_BLOCK.get(), new Item.Properties().maxStackSize(64).group(ModItemGroups.MOD_ITEM_GROUP)));
 	
 }
